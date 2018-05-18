@@ -1,6 +1,8 @@
 body {
-    height: 100px;
-    font-family: 'Roboto', sans-serif;;
+   height: 100px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
 header {
     background-color: #ffffff;
@@ -152,7 +154,8 @@ article {
 footer {
     color: white;
     background-color: #21303b;
-    padding: 20px;
+    padding: 40px;
+    text-align: center;
 }
 footer a {
     text-decoration: none;
@@ -161,4 +164,11 @@ footer a {
 }
 footer a:hover {
     color: #fde093;
+}
+footer li {
+    display: inline-block;
+    padding: 16px;
+}
+.container {
+    padding: 0px;
 }
