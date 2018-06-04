@@ -139,13 +139,11 @@ article > div:nth-child(13) {
     background-color: #42cdb2;
     color: white;
     padding-left: 16px;
-    margin-left: 190px;
 }
 article > div:nth-child(14) {
     background-color: #2176ff;
     color: white;
     padding-left: 16px;
-    margin-left: 190px;
 }
 article > div:hover {
     background-color: #3c3535;
@@ -181,4 +179,8 @@ footer li {
 .container {
     padding: 0px;
 }
-
+@media screen and (max-width:480px) {
+    nav {
+        display: none;
+    }
+}
